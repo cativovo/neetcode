@@ -1,4 +1,4 @@
-package containsduplicate
+package arraysandhashing
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package validanagram
+package arraysandhashing
 
 import (
 	"testing"
