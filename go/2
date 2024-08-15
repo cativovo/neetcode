@@ -1,0 +1,19 @@
+package arraysandhashing
+
+import (
+	"strconv"
+	"strings"
+)
+
+func groupAnagrams(strs []string) [][]string {
+	return nil
+}
+
+func getKey(s string) string {
+	const a = 97
+	k := make([]string, len(s))
+	for _, r := range s {
+		k = append(k, strconv.Itoa(a-int(r)))
+	}
+	return strings.Join(k, "")
+}
